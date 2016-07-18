@@ -1,0 +1,23 @@
+{
+  "name": "pawns-of-got-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Yoni Stap",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.0.1",
+    "lodash": "^4.13.1",
+    "mongoose": "^4.5.2",
+    "multer": "^1.1.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.7.0"
+  }
+}
